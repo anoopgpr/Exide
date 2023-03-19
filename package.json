@@ -1,0 +1,49 @@
+{
+    "name": "monaca-template-minimum",
+    "version": "3.0.0",
+    "displayName": "Monaca Template Minimum",
+    "dependencies": {
+        "cordova-plugin-splashscreen": "6.0.0",
+        "monaca-plugin-monaca-core": "3.3.1",
+        "cordova-plugin-camera": "6.0.0",
+        "cordova-plugin-media-capture": "4.0.0",
+        "cordova-plugin-device": "2.0.3",
+        "cordova-plugin-file": "7.0.0",
+        "cordova-plugin-media": "6.0.0",
+        "@havesource/cordova-plugin-push": "git+https://github.com/havesource/cordova-plugin-push",
+        "cordova-plugin-x-socialsharing": "git+https://github.com/EddyVerbruggen/SocialSharing-PhoneGap-Plugin",
+        "cordova-plugin-androidx-adapter": "git+https://github.com/dpa99c/cordova-plugin-androidx-adapter",
+        "cordova-plugin-file-transfer": "git+https://github.com/apache/cordova-plugin-file-transfer",
+        "cordova-plugin-qr-barcode-scanner": "git+https://github.com/AndreiTelteu/cordova-plugin-qr-barcode-scanner",
+        "cordova-plugin-inappbrowser": "git+https://github.com/apache/cordova-plugin-inappbrowser",
+        "cordova-plugin-android-permissions": "",
+        "cordova-plugin-geolocation": "4.0.2"
+    },
+    "scripts": {
+        "monaca:preview": "npm run dev",
+        "dev": "browser-sync start -s www/ --watch --port 8080 --ui-port 8081"
+    },
+    "cordova": {
+        "plugins": {
+            "cordova-plugin-splashscreen": {},
+            "monaca-plugin-monaca-core": {},
+            "cordova-plugin-camera": {},
+            "cordova-plugin-media-capture": {},
+            "cordova-plugin-device": {},
+            "cordova-plugin-file": {},
+            "cordova-plugin-media": {},
+            "@havesource/cordova-plugin-push": {},
+            "cordova-plugin-x-socialsharing": {},
+            "cordova-plugin-androidx-adapter": {},
+            "cordova-plugin-file-transfer": {},
+            "cordova-plugin-qr-barcode-scanner": {},
+            "cordova-plugin-inappbrowser": {},
+            "cordova-plugin-android-permissions": {},
+            "cordova-plugin-geolocation": {}
+        }
+    },
+    "devDependencies": {
+        "browser-sync": "~2.27.7",
+        "cordova": "^11.0.0"
+    }
+}
